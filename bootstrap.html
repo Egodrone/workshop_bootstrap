@@ -45,6 +45,28 @@
     </nav>
 </header>
 
+
+
+<div class="container">
+
+    <div class="toast" data-autohide="false">
+        <div class="toast-header">
+            <strong class="mr-auto text-primary"> New courses every week! </strong>
+            <small class="text-muted">Updated 5 minutes ago</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+        </div>
+        <div class="toast-body">
+            Java course starts on monday
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.toast').toast('show');
+    });
+</script>
+
 <!-- The Modal -->
 <div class="modal" id="myModal">
     <div class="modal-dialog">
@@ -94,6 +116,9 @@
         <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Add Student</button>
     </form>
 </div>
+
+
+
 
 
 <div class="row col-3">
