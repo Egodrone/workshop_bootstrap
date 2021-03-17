@@ -1,5 +1,23 @@
 body {
     background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li {
+    padding: 20px;
+    display: inline-block;
+}
+
+.li-header {
+    background-color: #81947e;
+}
+
+#img {
+    width: 200px;
+}
+
+#ol-nav {
+    background-color: #75667c;
 }
 
 table {
@@ -16,4 +34,16 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 50px 50px;
+    color: #ffffff;
+    text-align: center;
 }
